@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DEPEND=!<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Franz is a free messaging app / former Emperor of Austria and combines chat & messaging services into one application. He currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.
+EAPI=6
+HOMEPAGE=http://meetfranz.com/
+KEYWORDS=~amd64 ~x86
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/imprecision/franz-app/releases/download/3.0.2/Franz-linux-x64-3.0.2.tgz
+_eclass_exported_funcs=src_unpack:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=87e908d6770746b07ccc0fa4ba0a865b

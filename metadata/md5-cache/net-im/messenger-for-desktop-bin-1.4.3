@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=A simple & beautiful app for Facebook Messenger.
+EAPI=6
+HOMEPAGE=https://messengerfordesktop.com/
+KEYWORDS=~amd64 ~x86
+RESTRICT=mirror
+SLOT=0
+SRC_URI=amd64? ( https://github.com/Aluxian/Facebook-Messenger-Desktop/releases/download/v1.4.3/Messenger_linux64.deb ) x86? ( https://github.com/Aluxian/Facebook-Messenger-Desktop/releases/download/v1.4.3/Messenger_linux32.deb )
+_eclass_exported_funcs=src_unpack:- src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf	unpacker	45d07319df5f40ee6af58418b0f930be
+_md5_=879bc7a7ff637ebc6ed69463cc95653e
