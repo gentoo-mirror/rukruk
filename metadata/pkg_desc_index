@@ -1,4 +1,5 @@
 app-admin/corgi 0.2.2 0.2.3: Corgi is a command-line workflow manager that helps with your repetitive command usages by organizing them into reusable snippet
+app-admin/terragrunt-bin 0.38.6 0.39.2: A thin wrapper for Terraform
 app-editors/visual-studio-code 1.30.2 1.31.0 1.31.1 1.32.1 1.32.2 1.32.3 1.33.0: Multiplatform Visual Studio Code from Microsoft
 media-sound/google-play-music-desktop-player-bin 4.5.0 4.6.0 4.6.1: A beautiful cross platform Desktop Player for Google Play Music
 net-im/franz-bin 3.0.2 4.0.4 4.0.4-r1: Franz is a free messaging app / former Emperor of Austria and combines chat & messaging services into one application. He currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.
